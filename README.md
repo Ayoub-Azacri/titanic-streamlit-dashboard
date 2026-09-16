@@ -6,10 +6,10 @@ Developpe avec Streamlit, Plotly, Pandas et Seaborn.
 
 ## Equipe du projet
 
-* Ayoub AZACRI (Data Engineer)
-* Youssef EL HAJJI (Lead Tech)
-* Omar HAKIK (Data Quality)
-* Youssef DEKHAIL (Data Analyst)
+* Ayoub AZACRI
+* Youssef EL HAJJI
+* Omar HAKIK
+* Youssef DEKHAIL
 
 Promotion HETIC MD4.
 
