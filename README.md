@@ -18,7 +18,7 @@ Promotion HETIC MD4.
 Le tableau de bord presente quatre volets d'analyse chiffres, un simulateur individuel et un registre de consultation :
 
 * « Les femmes et les enfants d'abord » : evaluation du protocole maritime d'evacuation. Le taux de survie atteint 75,6 % chez les femmes et 59,0 % chez les enfants, contre 16,4 % chez les hommes adultes.
-* Le statut social traverse le genre : croisement de la classe de voyage et du sexe. La priorite accordee aux femmes s'applique a toutes les classes, mais les femmes de premiere classe atteignent 96,8 % de survie contre 50,0 % en troisieme classe.
+* Femmes prioritaires, mais la classe decide : croisement de la classe de voyage et du sexe. La priorite accordee aux femmes s'applique a toutes les classes, mais les femmes de premiere classe atteignent 96,8 % de survie contre 50,0 % en troisieme classe.
 * La taille du foyer determine la survie : impact de la cellule familiale. Les petits groupes de 2 a 4 personnes obtiennent le meilleur taux de survie (57,9 %), alors que les passagers isoles tombent a 30,4 % et les grandes familles a 16,1 %.
 * Le fardeau de la troisieme classe : comparaison entre risque individuel et pertes absolues. La troisieme classe subit 75,8 % de mortalite individuelle et concentre 67,8 % de l'ensemble des victimes du naufrage.
 * Simulateur personnel de survie : estimation bayesienne personnalisee basee sur la classe, le profil, l'age et la taille du foyer, completee par l'affichage d'une cohorte historique miroir.

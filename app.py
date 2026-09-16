@@ -50,7 +50,7 @@ with st.sidebar:
         [
             "📜 Enquête complète",
             "1️⃣ « Les femmes et les enfants d'abord »",
-            "2️⃣ Le statut social traverse le genre",
+            "2️⃣ Femmes prioritaires, mais la classe décide",
             "3️⃣ La taille du foyer détermine la survie",
             "4️⃣ Le fardeau de la 3e classe",
             "🔮 Simulateur personnel de survie",
@@ -206,14 +206,14 @@ if nav_option in ["📜 Enquête complète", "1️⃣ « Les femmes et les enfan
     ), unsafe_allow_html=True)
     st.divider()
 
-# --- SECTION 2 : LE STATUT SOCIAL TRAVERSE LE GENRE ---
-if nav_option in ["📜 Enquête complète", "2️⃣ Le statut social traverse le genre"]:
+# --- SECTION 2 : FEMMES PRIORITAIRES, MAIS LA CLASSE DÉCIDE ---
+if nav_option in ["📜 Enquête complète", "2️⃣ Femmes prioritaires, mais la classe décide"]:
     is_flt2 = (summary['total'] < 891)
-    st.subheader(f"Le statut social traverse le genre" + (f" · Cohorte ({summary['total']} passagers)" if is_flt2 else ""))
-    st.caption(f"Jauge de survie (barre pleine) et de mortalité (barre vide) croisant classe de voyage et sexe ({summary['total']} passagers)")
+    st.subheader(f"Femmes prioritaires, mais la classe décide" + (f" · Cohorte ({summary['total']} passagers)" if is_flt2 else ""))
+    st.caption(f"Jauge de survie croisant classe de voyage et sexe ({summary['total']} passagers) : la priorité s'applique, mais le rang social conditionne le sauvetage.")
     st.markdown("""
     <div class="minto-card">
-        <strong>Message clé (Minto) :</strong> Le statut social traverse le genre : 96,8 % des femmes et 36,9 % des hommes sauvés en 1re classe, contre 50,0 % et 13,5 % en 3e.
+        <strong>Message clé (Minto) :</strong> Femmes prioritaires, mais la classe décide : 96,8 % des femmes sauvées en 1re classe, contre 50,0 % en 3e.
     </div>
     """, unsafe_allow_html=True)
 
