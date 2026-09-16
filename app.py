@@ -50,7 +50,7 @@ with st.sidebar:
         [
             "📜 Enquête complète",
             "1️⃣ « Les femmes et les enfants d'abord »",
-            "2️⃣ Femmes prioritaires, mais la classe décide",
+            "2️⃣ Femmes prioritaires, peu importe la classe",
             "3️⃣ La taille du foyer détermine la survie",
             "4️⃣ Le fardeau de la 3e classe",
             "🔮 Simulateur personnel de survie",
@@ -206,14 +206,14 @@ if nav_option in ["📜 Enquête complète", "1️⃣ « Les femmes et les enfan
     ), unsafe_allow_html=True)
     st.divider()
 
-# --- SECTION 2 : FEMMES PRIORITAIRES, MAIS LA CLASSE DÉCIDE ---
-if nav_option in ["📜 Enquête complète", "2️⃣ Femmes prioritaires, mais la classe décide"]:
+# --- SECTION 2 : FEMMES PRIORITAIRES, PEU IMPORTE LA CLASSE ---
+if nav_option in ["📜 Enquête complète", "2️⃣ Femmes prioritaires, peu importe la classe"]:
     is_flt2 = (summary['total'] < 891)
-    st.subheader(f"Femmes prioritaires, mais la classe décide" + (f" · Cohorte ({summary['total']} passagers)" if is_flt2 else ""))
-    st.caption(f"Jauge de survie croisant classe de voyage et sexe ({summary['total']} passagers) : la priorité s'applique, mais le rang social conditionne le sauvetage.")
+    st.subheader(f"Femmes prioritaires, peu importe la classe" + (f" · Cohorte ({summary['total']} passagers)" if is_flt2 else ""))
+    st.caption(f"Jauge de survie croisant classe de voyage et sexe ({summary['total']} passagers) : la priorité au genre surpasse la hiérarchie sociale.")
     st.markdown("""
     <div class="minto-card">
-        <strong>Message clé (Minto) :</strong> Femmes prioritaires, mais la classe décide : 96,8 % des femmes sauvées en 1re classe, contre 50,0 % en 3e.
+        <strong>Message clé (Minto) :</strong> Femmes prioritaires, peu importe la classe : 50,0 % des femmes de 3e classe ont été sauvées, contre 36,9 % des hommes de 1re classe.
     </div>
     """, unsafe_allow_html=True)
 
